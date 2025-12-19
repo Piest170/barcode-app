@@ -10,12 +10,12 @@
 
 ## วิธีเริ่มต้นใช้งาน
 ### Backend
-cd backend/ProductCodeApi
-dotnet run
+- cd backend/ProductCodeApi
+- dotnet run
 ### Run Test
-cd ../ProductCodeApi.Tests
-dotnet test
+- cd ../ProductCodeApi.Tests
+- dotnet test
 ### Frontend
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
