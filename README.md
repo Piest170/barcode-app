@@ -1,4 +1,4 @@
-### Barcode
+# Barcode
 
 จัดการรหัสสินค้า 16 หลัก รูปแบบ xxxx-xxxx-xxxx-xxxx  
 ใช้มาตรฐาน Barcode Code 39
@@ -10,14 +10,19 @@
 
 ## วิธีเริ่มต้นใช้งาน
 ### Backend
-- cd backend/ProductCodeApi
-- dotnet ef migrations add UniqueCode
-- dotnet ef database update
-- dotnet run
+```cmd
+cd backend/ProductCodeApi
+dotnet ef migrations add UniqueCode
+dotnet ef database update
+dotnet run
+```
 ### Run Test
-- cd ../ProductCodeApi.Tests
-- dotnet test
+```cmd
+cd ../ProductCodeApi.Tests
+dotnet test
+```
 ### Frontend
-- cd frontend
-- npm install
-- npm run dev
+```cmd
+cd frontend
+npm install
+npm run dev
