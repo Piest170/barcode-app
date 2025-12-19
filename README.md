@@ -12,8 +12,6 @@
 ### Backend
 ```cmd
 cd backend/ProductCodeApi
-dotnet ef migrations add UniqueCode
-dotnet ef database update
 dotnet run
 ```
 ### Run Test
