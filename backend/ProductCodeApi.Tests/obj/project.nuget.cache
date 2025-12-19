@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "neeAh5YjxUs=",
+  "dgSpecHash": "AD/aG5tFXEk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
+  "projectFilePath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PU170\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\PU170\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

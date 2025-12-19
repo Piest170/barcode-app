@@ -120,4 +120,20 @@ public class ProductCodesControllerTests : IDisposable
         Assert.NotEmpty(fileResult.FileContents);
         Assert.True(fileResult.FileContents.Length > 1000); // barcode จริงต้องมีขนาดพอสมควร
     }
+
+    [Fact]
+    public async Task PostProductCode_DuplicateCode_ReturnsBadRequest()
+    {
+        // Arrange
+        var controller = new ProductCodesController(_context, _barcodeService);
+        var code = new ProductCode { Code = "DUPL-1234-EFGH-5678" };
+
+        await controller.PostProductCode(code);
+        // Act
+        var result = await controller.PostProductCode(code);
+
+        // Assert
+        var conflict = Assert.IsType<BadRequestObjectResult>(result.Result);
+        Assert.Contains("มีอยู่ในระบบแล้ว", conflict.Value.ToString() ?? "");
+    }
 }

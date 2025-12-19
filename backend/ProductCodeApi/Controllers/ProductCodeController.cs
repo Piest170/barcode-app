@@ -34,6 +34,11 @@ public class ProductCodesController : ControllerBase
             return BadRequest("รูปแบบรหัสสินค้าต้องเป็นตัวเลขหรือตัวอักษรใหญ่ 16 หลัก ในรูปแบบ xxxx-xxxx-xxxx-xxxx");
         }
 
+        if (await _context.ProductCodes.AnyAsync(p => p.Code == productCode.Code))
+        {
+            return BadRequest("รหัสสินค้านี้มีอยู่ในระบบแล้ว");
+        }
+
         _context.ProductCodes.Add(productCode);
         await _context.SaveChangesAsync();
 

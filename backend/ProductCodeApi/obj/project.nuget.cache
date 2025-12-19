@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DEMFtJzRT88=",
+  "dgSpecHash": "s7h48v95i3o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
+  "projectFilePath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PU170\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\PU170\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",

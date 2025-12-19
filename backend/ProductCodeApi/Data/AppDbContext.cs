@@ -11,7 +11,8 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
-        modelBuilder.Entity<ProductCode>().HasData();
+        modelBuilder.Entity<ProductCode>().HasIndex(p => p.Code).IsUnique();
+
+        // base.OnModelCreating(modelBuilder);
     }
 }

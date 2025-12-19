@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj": {}
+    "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj": {
+    "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
         "projectName": "ProductCodeApi.Tests",
-        "projectPath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
+        "projectPath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\ProductCodeApi.Tests.csproj",
         "packagesPath": "C:\\Users\\PU170\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi.Tests\\obj\\",
+        "outputPath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PU170\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj": {
-                "projectPath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj"
+              "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj": {
+                "projectPath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj": {
+    "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
+        "projectUniqueName": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
         "projectName": "ProductCodeApi",
-        "projectPath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
+        "projectPath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\ProductCodeApi.csproj",
         "packagesPath": "C:\\Users\\PU170\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PU170\\source\\repos\\ProductCodeApp\\backend\\ProductCodeApi\\obj\\",
+        "outputPath": "C:\\Users\\PU170\\source\\repos\\barcode-app\\backend\\ProductCodeApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PU170\\AppData\\Roaming\\NuGet\\NuGet.Config"

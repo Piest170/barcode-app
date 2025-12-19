@@ -163,7 +163,22 @@ const addCode = async () => {
     await loadData()
     showAlert('แจ้งเตือน!', `เพิ่มรหัสสินค้าสำเร็จ`, 'success')
   } catch (err) {
-    showAlert('แจ้งเตือน!', 'เพิ่มไม่สำเร็จ: ' + (err.response?.data || err.message), 'error')
+    // showAlert('แจ้งเตือน!', 'เพิ่มไม่สำเร็จ: ' + (err.response?.data || err.message), 'error')
+    // ดึงข้อความ error จาก Backend
+    let errorMessage = 'เพิ่มไม่สำเร็จ: ไม่ทราบสาเหตุ'
+
+    if (err.response && err.response.data) {
+      errorMessage = err.response.data // Backend ส่งข้อความ string มา
+      // หรือถ้า Backend ส่งเป็น object: err.response.data.title || err.response.data
+    } else if (err.message) {
+      errorMessage = err.message
+    }
+
+    if (errorMessage.includes('มีอยู่ในระบบแล้ว') || errorMessage.includes('ซ้ำ')) {
+      showAlert('แจ้งเตือน!', 'รหัสสินค้านี้มีอยู่ในระบบแล้ว ไม่สามารถเพิ่มซ้ำได้', 'warning')
+    } else {
+      showAlert('แจ้งเตือน!', errorMessage, 'danger')
+    }
   }
 }
 
