@@ -11,6 +11,8 @@
 ## วิธีเริ่มต้นใช้งาน
 ### Backend
 - cd backend/ProductCodeApi
+- dotnet ef migrations add UniqueCode
+- dotnet ef database update
 - dotnet run
 ### Run Test
 - cd ../ProductCodeApi.Tests
