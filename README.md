@@ -1,4 +1,4 @@
-Markdown# Barcode
+### Barcode
 
 จัดการรหัสสินค้า 16 หลัก รูปแบบ xxxx-xxxx-xxxx-xxxx  
 ใช้มาตรฐาน Barcode Code 39
