@@ -299,3 +299,8 @@ C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\
 C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\ProductCodeApi.pdb
 C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\ProductCodeApi.genruntimeconfig.cache
 C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\ref\ProductCodeApi.dll
+C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\bin\Debug\net9.0\ProductCodeApi.staticwebassets.runtime.json
+C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\compressed\haiwvhkoch-uctv2gnqxu.gz
+C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\compressed\7bpzcb3sw2-dx9iawq577.gz
+C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\compressed\ldpfasq2ta-y6hwl33icl.gz
+C:\Users\PU170\source\repos\barcode-app\backend\ProductCodeApi\obj\Debug\net9.0\compressed\nvauiszsa0-69kjnsiwqx.gz

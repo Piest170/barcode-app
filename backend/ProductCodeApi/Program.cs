@@ -12,13 +12,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<BarcodeService>();
 
 // Add CORS policy
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        policy => policy.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
-});
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowAll",
+//         policy => policy.AllowAnyOrigin()
+//                         .AllowAnyMethod()
+//                         .AllowAnyHeader());
+// });
 
 var app = builder.Build();
 
@@ -27,9 +27,15 @@ if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
 
-app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
+
 app.UseAuthorization();
 app.MapControllers();
 
